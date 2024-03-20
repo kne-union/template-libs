@@ -11,3 +11,4 @@ jobs:
     secrets: inherit
     with:
       package_name: '<%=packageName%>'
+      example_package_name: '@kne-components/<%=name%>'
