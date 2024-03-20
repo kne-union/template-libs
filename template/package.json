@@ -51,7 +51,7 @@
   "bugs": {
     "url": "https://github.com/kne-union/<%=name%>/issues"
   },
-  "homepage": "https://www.kne-union.top/#/libs/<%=name%>",
+  "homepage": "https://www.kne-union.top/#/libs/<%=templateLibs.camelCase(name)%>",
   "eslintConfig": {
     "extends": [
       "react-app",
