@@ -1,0 +1,39 @@
+{
+  "name": "@kne-template/libs",
+  "version": "0.1.0",
+  "description": "用于初始化一个前端组件包，它带有一个microbundle的编译环境和一个用于开发调试和文档示例展示的example环境",
+  "scripts": {
+    "init": "husky",
+    "build:md": "npx @kne/md-doc",
+    "start:md": "npx @kne/md-doc --watch",
+    "prettier": "prettier --config .prettierrc --write '{libs/**/*,index}.{js,jsx,ts,tsx,json,css,scss}'",
+    "lint-staged": "npx lint-staged"
+  },
+  "lint-staged": {
+    "{libs/**/*,index}.{js,jsx,ts,tsx,json,css,scss}": [
+      "prettier --config .prettierrc --ignore-path .prettierignore  --write",
+      "git add"
+    ]
+  },
+  "files": [
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kne-union/template-libs.git"
+  },
+  "keywords": [
+    "template",
+    "prompts.json"
+  ],
+  "author": "linzp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kne-union/template-libs/issues"
+  },
+  "homepage": "https://github.com/kne-union/template-libs#readme",
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
+  }
+}
