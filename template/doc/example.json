@@ -7,7 +7,7 @@
       "code": "./base.js",
       "scope": [
         {
-          "name": "<%=name%>",
+          "name": "_<%=templateLibs.camelCase(name)%>",
           "packageName": "<%=packageName%>"
         }
       ]

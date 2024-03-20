@@ -1,4 +1,4 @@
-const {default:<%=templateLibs.camelCase(name)%>} = name;
+const {default:<%=templateLibs.camelCase(name)%>} = _<%=templateLibs.camelCase(name)%>;
 
 const BaseExample = ()=>{
     return <div>
