@@ -11,7 +11,7 @@
   },
   "lint-staged": {
     "{libs/**/*,index}.{js,jsx,ts,tsx,json,css,scss}": [
-      "prettier --config .prettierrc --ignore-path .prettierignore  --write",
+      "prettier --config .prettierrc  --write",
       "git add"
     ]
   },
