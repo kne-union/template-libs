@@ -38,8 +38,7 @@
     ]
   },
   "files": [
-    "index.js",
-    "libs"
+    "dist"
   ],
   "repository": {
     "type": "git",
