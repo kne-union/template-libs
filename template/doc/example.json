@@ -8,7 +8,8 @@
       "scope": [
         {
           "name": "_<%=templateLibs.camelCase(name)%>",
-          "packageName": "@kne/current-lib_<%=name%>"
+          "packageName": "@kne/current-lib_<%=name%>",
+          "importStatement": "import * as _<%=templateLibs.camelCase(name)%> from \"<%=packageName%>\""
         }
       ]
     }
