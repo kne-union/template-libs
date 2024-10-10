@@ -1,6 +1,6 @@
 {
   "name": "@kne-template/libs",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "用于初始化一个前端组件包，它带有一个microbundle的编译环境和一个用于开发调试和文档示例展示的example环境",
   "scripts": {
     "init": "husky",
