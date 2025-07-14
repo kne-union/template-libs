@@ -1,6 +1,6 @@
 {
   "name": "<%=packageName%>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "<%=description%>",
   "syntax": {
     "esmodules": true
@@ -84,5 +84,8 @@
     "prettier": "^3.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "@kne/react-intl": "^0.1.9"
   }
 }
