@@ -1,4 +1,3 @@
-import React from 'react';
 import zhCn from './locale/zh-CN';
 import enUS from './locale/en-US';
 import { createWithIntlProvider, useIntl } from '@kne/react-intl';
