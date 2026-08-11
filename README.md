@@ -16,7 +16,7 @@ npm i --save @kne-template/libs
 
 ### 概述
 
-用来通过@kne/npm-tools生成一个react组件库
+用来通过@kne/npm-tools生成一个react组件库。项目初始化（`npm run init`）时会通过 `@kne/npm-tools deployPrompts frontend-libs` 自动拉取对应 prompts。
 
 ```shell
 npx @kne/npm-tools init @kne/template-libs
