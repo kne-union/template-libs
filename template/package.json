@@ -9,7 +9,7 @@
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "scripts": {
-    "init": "husky && npm run init-example",
+    "init": "husky && npm run init-example && npx @kne/npm-tools deployPrompts frontend-libs",
     "start": "run-p start:lib start:md start:example",
     "build": "run-s build:lib build:md build:example",
     "init-example": "modules-dev-libs-init",
