@@ -132,3 +132,4 @@ package-lock.json
 
 prompts
 graphify-out
+.DS_Store
